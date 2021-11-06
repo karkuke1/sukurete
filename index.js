@@ -82,7 +82,7 @@ client.on("message", async message => {
 
 **anti link use onle owner ship ord administrator or manage emoji send [anti partner]**
 
-[\`invite bot\`](OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.ebCotWeeoAkEsuuIR1X01Yv-5-k) • [\`Support\`](https://discord.gg/9n6dj99ZEN)
+[\`invite bot\`](OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.ebCotWeeoAkEsuuIR1X01Yv-5-k) • [\`Support\`](https://discord.gg/tBndu457NT)
 `);
 
     message.channel.send(help);
@@ -291,7 +291,7 @@ client.on("message", message => {
           .setTitle("Nicknamed User!")
           .setColor("RANDOM")
           .setThumbnail(message.author.avatarURL)
-           .setFooter(message.author.username,  `https://cdn.discordapp.com/emojis/771689685579333673.gif?v=1`
+           .setFooter(message.author.username,  `OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.QzfWhKtUmv7-ean8gjMbrA7OHBU`
 )
           .setTimestamp()
 
