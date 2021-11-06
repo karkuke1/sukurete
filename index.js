@@ -291,7 +291,7 @@ client.on("message", message => {
           .setTitle("Nicknamed User!")
           .setColor("RANDOM")
           .setThumbnail(message.author.avatarURL)
-           .setFooter(message.author.username,  `OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.QzfWhKtUmv7-ean8gjMbrA7OHBU`
+           .setFooter(message.author.username,  `https://media.discordapp.net/attachments/905179288301613126/906463833713963018/standard_4.gif `
 )
           .setTimestamp()
 
