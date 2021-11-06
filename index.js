@@ -82,7 +82,7 @@ client.on("message", async message => {
 
 **anti link use onle owner ship ord administrator or manage emoji send [anti partner]**
 
-[\`invite bot\`](OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.ebCotWeeoAkEsuuIR1X01Yv-5-k) • [\`Support\`](https://discord.gg/tBndu457NT)
+[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=904853681743228978&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/tBndu457NT)
 `);
 
     message.channel.send(help);
@@ -126,7 +126,7 @@ client.on("message", message => {
       .setColor("GREEN")
       .setTitle("=--> click touch for link bot <--=")
       .setURL(
-        "OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.ebCotWeeoAkEsuuIR1X01Yv-5-k"
+        "https://discord.com/api/oauth2/authorize?client_id=904853681743228978&permissions=8&scope=bot"
       );
     message.channel.send(embed);
      message.react(":white_check_mark:");
@@ -620,4 +620,4 @@ client.on('guildDelete', guild => {
 });
 
 
-client.login("");
+client.login("OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.21CctzD5_8CkXe8-03pILtZWKug");
