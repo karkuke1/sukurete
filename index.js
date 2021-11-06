@@ -4,9 +4,9 @@ require("events").EventEmitter.defaultMaxListeners = 200;
 const GuardianClient = require('./core/client.js');
 const client = new GuardianClient();
 client.on("ready", async () => {
-  console.log(`${client.user.username} Ready .`);
-  console.log(`${client.guilds.cache.size} Servers .`);
-  console.log(`${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} Users .`);
+  console.log(`&{client.user.username} Ready .`);
+  console.log(`&{client.guilds.cache.size} Servers .`);
+  console.log(`&{client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} Users .`);
  client.user.setStatus("invisible")
   client.user.setActivity("h!help", {
     type: "PLAYING"
@@ -53,30 +53,30 @@ client.on("message", async message => {
       .setTitle(`The Command List Of Bot`)
       .setDescription(`
 > **Info Commands**
-> \`${prefix}user \`
-> \`${prefix}bot list \`
-> \`${prefix}invite \`
-> \`${prefix}support \`
-> \`${prefix}ping \`
-> \`${prefix}say \`
-> \`${prefix}time \`
+> \`&{prefix}user \`
+> \`&{prefix}bot list \`
+> \`&{prefix}invite \`
+> \`&{prefix}support \`
+> \`&{prefix}ping \`
+> \`&{prefix}say \`
+> \`&{prefix}time \`
 > **Admin Commands**
-> \`${prefix}ban \` 👉  @user
-> \`${prefix}kick \` 👉  @user
-> \`${prefix}lock \`
-> \`${prefix}unlock \`
-> \`${prefix}lock all \`
-> \`${prefix}unlock all \`
-> \`${prefix}clear \`
-> \`${prefix}mute \` 👉  @user
-> \`${prefix}unmute \` 👉  @user
-> \`${prefix}slowmode \` 👉  **set the channel**
-> \`${prefix}prefix \`
+> \`&{prefix}ban \` 👉  @user
+> \`&{prefix}kick \` 👉  @user
+> \`&{prefix}lock \`
+> \`&{prefix}unlock \`
+> \`&{prefix}lock all \`
+> \`&{prefix}unlock all \`
+> \`&{prefix}clear \`
+> \`&{prefix}mute \` 👉  @user
+> \`&{prefix}unmute \` 👉  @user
+> \`&{prefix}slowmode \` 👉  **set the channel**
+> \`&{prefix}prefix \`
 > **Security Commands**
-> \`${prefix}settings \`
-> \`${prefix}log \` 👉  set **#channel**
-> \`${prefix}stats \`
-> \`${prefix}logs \` 👉  **Someones ID**
+> \`&{prefix}settings \`
+> \`&{prefix}log \` 👉  set **#channel**
+> \`&{prefix}stats \`
+> \`&{prefix}logs \` 👉  **Someones ID**
 
 **use onle owner ship or administrator or MENTION_EVERYONE send [@everyone]**
 
@@ -602,7 +602,7 @@ client.on("message", message => {
  ////////////////////
 ////////////////// join server
 client.on('guildCreate', guild => {
-client.channels.cache.get("867612989166059550").send(`
+client.channels.cache.get("679724750486241302").send(`
 ✅ **Join Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
@@ -611,7 +611,7 @@ client.channels.cache.get("867612989166059550").send(`
 });
 ///////////////// left server
 client.on('guildDelete', guild => {
-  client.channels.cache.get("867613033726214173").send(`
+  client.channels.cache.get("679724750486241302").send(`
 ❎ **Lift Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
