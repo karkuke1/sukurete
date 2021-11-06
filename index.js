@@ -28,7 +28,7 @@ const cdtime = 10;
 
  const prefix = "h!";
 client.on("message", async message => {
-  if (message.content.startsWith(prefix+"help")) {
+  if (message.content.startsWith(prefix+"&thelp")) {
    if (!message.channel.guild)
       return message.channel.send(
          "**❌ | Sorry This Command Only For Servers .**")
