@@ -602,7 +602,7 @@ client.on("message", message => {
  ////////////////////
 ////////////////// join server
 client.on('guildCreate', guild => {
-client.channels.cache.get("679724750486241302").send(`
+client.channels.cache.get("906365735138381845").send(`
 ✅ **Join Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
@@ -611,7 +611,7 @@ client.channels.cache.get("679724750486241302").send(`
 });
 ///////////////// left server
 client.on('guildDelete', guild => {
-  client.channels.cache.get("679724750486241302").send(`
+  client.channels.cache.get("906365735138381845").send(`
 ❎ **Lift Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
