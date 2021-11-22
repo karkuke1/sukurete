@@ -1,5 +1,5 @@
 module.exports = {
-    defaultPrefix: '&t',
+    defaultPrefix: '&',
     ownerID: '679724750486241302',
     _limits: 'The following are defaults.',
     adminCanChangeLimits: true,
