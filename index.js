@@ -620,4 +620,4 @@ client.on('guildDelete', guild => {
 });
 
 
-client.login("OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.21CctzD5_8CkXe8-03pILtZWKug");
+client.login("OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.JgjiPEOOb2o6JjXE2hGw2TV2tVg");
