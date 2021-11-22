@@ -8,7 +8,7 @@ client.on("ready", async () => {
   console.log(`&{client.guilds.cache.size} Servers .`);
   console.log(`&{client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} Users .`);
  client.user.setStatus("invisible")
-  client.user.setActivity("&t itzz taqana", {
+  client.user.setActivity("&t taqana", {
     type: "PLAYING"
   });
 });
@@ -82,7 +82,7 @@ client.on("message", async message => {
 
 **anti link use onle owner ship ord administrator or manage emoji send [anti partner]**
 
-[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=904853681743228978&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/tBndu457NT)
+[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=904853681743228978&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/eBCCj2tpFS)
 `);
 
     message.channel.send(help);
