@@ -9,7 +9,7 @@ client.on("ready", async () => {
   console.log(`&{client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} Users .`);
  client.user.setStatus("invisible")
   client.user.setActivity("&t taqana", {
-    type: "PLAYING"
+    type: "straeming"
   });
 });
 
@@ -76,13 +76,13 @@ client.on("message", async message => {
 > \`&{prefix}settings \`
 > \`&{prefix}log \` 👉  set **#channel**
 > \`&{prefix}stats \`
-> \`&{prefix}logs \` 👉  **Someones ID**
+> \`%{prefix}logs \` 👉  **Someones ID**
 
 **use onle owner ship or administrator or MENTION_EVERYONE send [@everyone]**
 
 **anti link use onle owner ship ord administrator or manage emoji send [anti partner]**
 
-[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=904853681743228978&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/eBCCj2tpFS)
+[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=927292652603461692&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/eBCCj2tpFS)
 `);
 
     message.channel.send(help);
@@ -620,4 +620,4 @@ client.on('guildDelete', guild => {
 });
 
 
-client.login("OTA0ODUzNjgxNzQzMjI4OTc4.YYBkqQ.JgjiPEOOb2o6JjXE2hGw2TV2tVg");
+client.login("OTI3MjkyNjUyNjAzNDYxNjky.YdIGlA.7yVzYR3ee5UydH0e0ULPT3qgi9s");
