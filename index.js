@@ -82,7 +82,7 @@ client.on("message", async message => {
 
 **anti link use onle owner ship ord administrator or manage emoji send [anti partner]**
 
-[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=927292652603461692&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/ZPyNYA72PX)
+[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=914055768108589096&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/ZPyNYA72PX)
 `);
 
     message.channel.send(help);
@@ -291,7 +291,7 @@ client.on("message", message => {
           .setTitle("Nicknamed User!")
           .setColor("RANDOM")
           .setThumbnail(message.author.avatarURL)
-           .setFooter(message.author.username,  `https://media.discordapp.net/attachments/905179288301613126/906463833713963018/standard_4.gif `
+           .setFooter(message.author.username,  `https://media.discordapp.net/attachments/908676541326700585/936693567106195477/IMG_2815.gif `
 )
           .setTimestamp()
 
@@ -620,4 +620,4 @@ client.on('guildDelete', guild => {
 });
 
 
-client.login("OTI3MjkyNjUyNjAzNDYxNjky.YdIGlA.7yVzYR3ee5UydH0e0ULPT3qgi9s");
+client.login("OTE0MDU1NzY4MTA4NTg5MDk2.YaHexQ.mqE_M9eYkzcy5sIaI7FfkYRdgLA");
