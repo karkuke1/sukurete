@@ -8,7 +8,7 @@ client.on("ready", async () => {
   console.log(`&{client.guilds.cache.size} Servers .`);
   console.log(`&{client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} Users .`);
  client.user.setStatus("invisible")
-  client.user.setActivity("&t taqana", {
+  client.user.setActivity("* karkuke", {
     type: "straeming"
   });
 });
@@ -53,36 +53,36 @@ client.on("message", async message => {
       .setTitle(`The Command List Of Bot`)
       .setDescription(`
 > **Info Commands**
-> \`&{prefix}user \`
-> \`&{prefix}bot list \`
-> \`&{prefix}invite \`
-> \`&{prefix}support \`
-> \`&{prefix}ping \`
-> \`&{prefix}say \`
-> \`&{prefix}time \`
+> \`*{prefix}user \`
+> \`*{prefix}bot list \`
+> \`*{prefix}invite \`
+> \`*{prefix}support \`
+> \`*{prefix}ping \`
+> \`*{prefix}say \`
+> \`*{prefix}time \`
 > **Admin Commands**
-> \`&{prefix}ban \` 👉  @user
-> \`&{prefix}kick \` 👉  @user
-> \`&{prefix}lock \`
-> \`&{prefix}unlock \`
-> \`&{prefix}lock all \`
-> \`&{prefix}unlock all \`
-> \`&{prefix}clear \`
-> \`&{prefix}mute \` 👉  @user
-> \`&{prefix}unmute \` 👉  @user
-> \`&{prefix}slowmode \` 👉  **set the channel**
-> \`&{prefix}prefix \`
+> \`*{prefix}ban \` 👉  @user
+> \`*{prefix}kick \` 👉  @user
+> \`*{prefix}lock \`
+> \`*{prefix}unlock \`
+> \`*{prefix}lock all \`
+> \`*{prefix}unlock all \`
+> \`*{prefix}clear \`
+> \`*{prefix}mute \` 👉  @user
+> \`*{prefix}unmute \` 👉  @user
+> \`*{prefix}slowmode \` 👉  **set the channel**
+> \`*{prefix}prefix \`
 > **Security Commands**
-> \`&{prefix}settings \`
-> \`&{prefix}log \` 👉  set **#channel**
-> \`&{prefix}stats \`
-> \`%{prefix}logs \` 👉  **Someones ID**
+> \`*{prefix}settings \`
+> \`*{prefix}log \` 👉  set **#channel**
+> \`*{prefix}stats \`
+> \`*{prefix}logs \` 👉  **Someones ID**
 
 **use onle owner ship or administrator or MENTION_EVERYONE send [@everyone]**
 
 **anti link use onle owner ship ord administrator or manage emoji send [anti partner]**
 
-[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=927292652603461692&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/eBCCj2tpFS)
+[\`invite bot\`](https://discord.com/api/oauth2/authorize?client_id=927292652603461692&permissions=8&scope=bot) • [\`Support\`](https://discord.gg/ZPyNYA72PX)
 `);
 
     message.channel.send(help);
